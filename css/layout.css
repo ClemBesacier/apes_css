@@ -1,17 +1,14 @@
-@media screen and (max-width: 1000px) {
-  body {
-    background-color: sandybrown;
-  }
+body {
+  background-color: #fa7268;
 }
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 991px) {
   body {
     background-color: sienna;
   }
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 767px) {
   body {
-    background-color: saddlebrown;
+    background-color: red;
   }
 }

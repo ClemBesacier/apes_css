@@ -1,0 +1,33 @@
+h1 {
+text-align: center;
+margin: 5vh 0vh;
+font-size: 30px;
+color: aliceblue;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news_items { 
+    padding: 1vh 1vh;
+    width: calc(100% / 3);
+}
+.news_items img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.news_items h2{
+    text-align: center;
+    padding: 5vh 0vh;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .news_items {
+        width: 100%;
+    }
+}

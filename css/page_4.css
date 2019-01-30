@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 5vh 5vh;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 5vh auto;
+}
+.contact img {
+    transform: rotate(0.5turn);
+    margin: auto;
+}
+
+.contact_apes img:hover {
+ transform: scale(1.2);
+ transition: 0.5s;
+}
+
+.contact_apes img {
+    margin: 5vh auto;
+}
