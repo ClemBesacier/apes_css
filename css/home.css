@@ -1,5 +1,5 @@
 #section_1 {
-    background-image: url(/images/large/01-snub-nosed-monkey.jpg);
+    background-image: url(../images/large/01-snub-nosed-monkey.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +65,7 @@ column-count: 3;
 }
 
 #section_5 {
-    background-image: url(/images/large/Un-capucin-a-poitrine-jaune-est-ne-au-zoo-de-la-Palmyre.jpg);
+    background-image: url(../images/large/Un-capucin-a-poitrine-jaune-est-ne-au-zoo-de-la-Palmyre.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
