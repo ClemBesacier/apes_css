@@ -13,7 +13,18 @@
 #section_1 h1 {
     color: aliceblue;
     font-size: 40px;
+    animation: roll 3s infinite;
+    transform: rotate(30deg);
 }
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
 #section_2 p {
 column-count: 3;
